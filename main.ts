@@ -4,7 +4,7 @@ export class ArrayComponent implements ArrayService {
 
     constructor() {}
 
-    public arrayMultiply(myArray: number[]) : Array<Number> {
+    public arrayFindMultiples(myArray: number[]) : Array<Number> {
     
         var array:number[];
       for(var i=0;i<myArray.length;++i)
